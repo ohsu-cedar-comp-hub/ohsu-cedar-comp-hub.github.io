@@ -1,3 +1,5 @@
 # ohsu-cedar-comp-hub.github.io
 A work-in-progress reference for CEDAR
-This site can be accessed here: ohsu-cedar-comp-hub.github.io
+This site can be accessed here: 
+
+[github_page](https://ohsu-cedar-comp-hub.github.io)
