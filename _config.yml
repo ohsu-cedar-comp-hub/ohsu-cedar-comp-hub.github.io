@@ -21,11 +21,12 @@
 title: CEDAR comp-hub
 email: ""
 description: >- # this means to ignore newlines until "baseurl:"
-This site is meant to serve as a source for information relevant to 
-the computation hub at CEDAR as well as a location for blog posts
-and information relevant to getting started on exacloud.  
-baseurl: "" # the subpath of your site, e.g. /blog
-github_username:  ohsu-cedar-comp-hubl
+  This site is meant to serve as a source for information relevant to 
+  the computation hub at CEDAR as well as a location for blog posts
+  and information relevant to getting started on exacloud.  
+
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+github_username:  ohsu-cedar-comp-hub
 
 # Build settings
 theme: minima
