@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Creation of the comphub website"
 date:   2023-05-02 14:09:15 -0700
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+For those who wish to edit and add to this website and are members of the cedar comp hub organization, you can simply add a markdown file into the `_posts` directory. Once this is done all that is needed is to push the changes and submit a pull request to the owners of this repository and the changes should automatically update on the website.
+
+
+
+The following information is copied directly from the Jekyll start up file:
 
 Jekyll requires blog post files to be named according to the following format:
 
