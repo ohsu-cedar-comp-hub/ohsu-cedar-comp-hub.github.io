@@ -25,7 +25,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   the computation hub at CEDAR as well as a location for blog posts
   and information relevant to getting started on exacloud.  
 
-baseurl: "/blog" # the subpath of your site, e.g. /blog
 github_username:  ohsu-cedar-comp-hub
 
 # Build settings
