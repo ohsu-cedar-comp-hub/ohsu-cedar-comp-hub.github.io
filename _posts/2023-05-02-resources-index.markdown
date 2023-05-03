@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Resources Index"
-date:   2023-05-02 18:09:15 -0700
+date:   2023-05-01 18:09:15 -0700
 categories: jekyll update
 ---
 
