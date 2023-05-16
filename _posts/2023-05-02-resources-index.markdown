@@ -9,8 +9,10 @@ categories: jekyll update
 
 ## Getting started in Exacloud
 
+ACC maintains an [Exacloud wiki](https://wiki.ohsu.edu/display/ACC/Exacloud). You have to be behind the firewall to access it.
+
 A great tutorial created by Ted Laderas can be found [here](https://laderast.github.io/exacloud_tutorial/).
-While the lustre system is no longer used for Exacloud, most of the other submission details are the same and this provides a great walkthrough.
+The lustre file system has been replaced by gscratch (`/home/exacloud/gscratch/CEDAR`), most of the other submission details are the same and this provides a great walkthrough.
 
 More information on how to submit jobs can be found [here](https://slurm.schedmd.com/overview.html).
 
