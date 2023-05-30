@@ -1,0 +1,33 @@
+ACC Documentation https://wiki.ohsu.edu/display/ACC/Exacloud%3A+Storage
+
+Log in - headnode
+* /home/users/username
+* Limited space here, keep .bash-related files
+
+Exacloud-accessible data storage
+RDS - general storage location
+* /home/groups/CEDAR/...
+* typically people work in a directory with either a project name or their log in name
+* has daily snapshots that are retained for 31 days
+* $66/TB/Year
+
+RDS - Archive for COMPRESSED RAW DATA!!
+* /home/groups/CEDAR/archive/<data type>
+* Monthly tape backup, stored offsite
+* Tapes recycled after 12 months
+  
+gscratch - fast access storage for working memory
+* /home/exacloud/gscratch/CEDAR/<user/project name>
+* $100/TB/year
+* No snapshots or site replication, not meant for long term storage
+  
+local scratch - the fastest... hard drive located on each node; 
+  * size varies by node
+  * can only be accessed from a node
+  * Must be cleared at the end of a session; if you don't clear it, it's not generally available, and you will be required to log into the node and clean up after yourself.
+  
+globus - 
+  * tool for secure data sharing
+  
+SMB Share (not exacloud accessible), can be mounted to local PCs if you're behind the firewall
+  * cedar_X
