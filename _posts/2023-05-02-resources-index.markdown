@@ -41,6 +41,8 @@ You will need access to the Teams "Comp Hub working group" channel. Click the "N
 
 ## Tutorial on Snakemake
 
+Presentation on Snakemake can be found here https://github.com/ohsu-cedar-comp-hub/ohsu-cedar-comp-hub.github.io/tree/main/data
+
 ## Tutorial on Github use
 
 ## Tutorial for Jupyterlab/notebook
