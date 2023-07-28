@@ -1,21 +1,26 @@
 Collection of resources - please edit and add details if you've actually gone through the process!
 By the way, if you'd like to crowd source, most of these channels are open - lmk if you want me to add you to any. 
 
+Top Recommendation    
+https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content
+
 From Marijane at the OHSU Library via the BioData Slack Channel. Endorsed by Eric Earl.
 * Zenodo is a great way to do this.
+
 And Rich Posert via the OHSU Collaborative Slack Channel
 * Yes, it’s quite easy through Zenodo. I used that for a project we published and it only took a few minutes.
+
 And Emek Demir via the Comp Bio Slack Channel
-* I believe this is the "official " way:
-https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content
+* I believe this is the "official " way: 
+
 Lillian Aoki via the ODSC Slack adds 
 * Just chiming in to say I've used the process above to create a DOI and archive a GitHub repo on Zenodo - it's pretty easy and works well as far as I'm concerned. It's also straightforward to update the GitHub repo with any revisions after review, and Zenodo supports versioning of the DOI so you can update the archived version and retain that DOI citation
 
 From Steve Van Tuyl via the ODSC Slack Channel
-* This link gives an overview of assigning DOIs for GH repos - looks like Zenodo is their first choice (?) - 
+* This link gives an overview of assigning DOIs for GH repos - looks like Zenodo is their first choice (?) -        
 https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content
-* and this is a great resource that discusses principles for software citation - may be of use - 
-https://force11.org/info/software-citation-principles-published-2016/
+* and this is a great resource that discusses principles for software citation - may be of use -       
+https://force11.org/info/software-citation-principles-published-2016/      
 i can put you in touch with someone at OSU who has a lot of experience on this (a coauthor on the Force11 doc i linked) if that would be helpful.
 
 Brian Karlberg via the Comp Bio Slack Channel
