@@ -22,6 +22,7 @@ gscratch - fast access storage for working memory
 * No snapshots or site replication, not meant for long term storage
   
 local scratch - the fastest... hard drive located on each node; 
+  * /mnt/scratch
   * size varies by node
   * can only be accessed from a node
   * Must be cleared at the end of a session; if you don't clear it, it's not generally available, and you will be required to log into the node and clean up after yourself.
