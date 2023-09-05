@@ -9,5 +9,5 @@
    Consider gscratch `/home/exacloud/gscratch/CEDAR` for faster I/O, but NOT FOR STORAGE!!!
    Bonus points - consider local/node scratch `/mnt/scratch` for the fastest I/O, but make sure you delete any files at the conclusion of your workflow.
 3. Know how much disk space you're using -
-   ``` sacct --units=G --format=JobIdRaw,Submit,Start,End,AllocNodes,ReqCPUs,AllocCPUs,TotalCPU,ReqMem,AveRSS,MaxRSS,AveVMSize,MaxVMSize,User,State,AveDiskWrite,MaxDiskWrite,NTasks --parsable2 -a --starttime=2023-08-29```
+   ``` sacct --units=G --format=JobIdRaw,Submit,Start,End,AllocNodes,ReqCPUs,AllocCPUs,TotalCPU,ReqMem,AveRSS,MaxRSS,AveVMSize,MaxVMSize,User,State,AveDiskWrite,MaxDiskWrite,NTasks --parsable2 -a -A cedar, cedar2 --starttime=2023-08-29```
    
