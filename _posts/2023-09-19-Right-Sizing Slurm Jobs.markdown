@@ -50,6 +50,8 @@ Once the job is complete, run this command:
 sacct --units=G --format=JobIdRaw,JobName%30,User,Group,State,Submit,Start,End,Cluster,Partition,AllocNodes,ReqCPUs,AllocCPUs,TotalCPU,CPUTime,UserCPU,AveCPU,SystemCPU,Elapsed,Timelimit,ReqMem,MaxRSS,MaxVMSize,State,MaxDiskWrite,MaxDiskRead,CPUTimeRaw,ElapsedRaw,TimelimitRaw,SubmitLine --parsable2 -a -A cedar,cedar2 --starttime=2023-08-25 --endtime=2023-09-10 --user={yourID} > sacct_2023.09.15.txt
 ```
 
+Note that this command is only accurate for COMPLETED jobs.
+
 Keep in mind that sacct “polls” usage, and so is not a perfect reflection of what you are using. 
 
 <aside>
@@ -100,6 +102,8 @@ Regarding MaxRSS vs MaxVMSize - from https://supercloud.mit.edu/submitting-jobs
 | 521.batch |  | 10.37G | 10.67G |
 
 ### How much CPU did I ask for? How much did I use?
+
+It's not possible to request <1 CPU...
 
 There are a lot of numbers that can be reported. Some key ones
 
