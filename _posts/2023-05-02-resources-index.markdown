@@ -43,7 +43,39 @@ You will need access to the Teams "Comp Hub working group" channel. Click the "N
 
 Presentation on Snakemake can be found here https://github.com/ohsu-cedar-comp-hub/ohsu-cedar-comp-hub.github.io/tree/main/data
 
-## Tutorial on Github use
+## GitHub and Git
+
+The main purpose of this section is to understand and help get started with GitHub and Git. Feel free to add more information or resources as needed.
+
+### Resources
+
+This [link](https://docs.github.com/en/get-started/quickstart/hello-world) does a great job on how to set GitHub.
+This [link](https://www.w3schools.com/git/git_getstarted.asp?remote=github) does a great job on how to use Git and pushing/pulling from GitHub.
+
+### GitHub
+
+GitHub is a cloud-based open-source community to create projects, collaborate with others, make contributions while having the ability to version control. This allows people to keep track of files that were changed or edited, revert to previous versions of the files, etc.
+
+GitHub uses Git, which is a version control system that helps keep track of the files and help manage repositories. Therefore, GitHub is a platform to help manage projects by using Git.
+
+### Repository
+
+Repositories are where we store projects. Each project should have its own repository. Within the repo, there can be folders and files, including scripts, images, etc. This [link](https://medium.com/code-factory-berlin/github-repository-structure-best-practices-248e6effc405) is good for describing best practice for setting GitHub strcture, however this webpage includes a lot of information. The main file to always have is the README.md file to describe the project.
+README.md is a markdown file that should include information about the project, purpose of the project, description of additional directories within the repo, description of files, including scripts, etc.
+
+### Branches
+
+There are branches within a repository which are like creating different versions of the repository by branching off. There can be several purposes for creating branches, and one purpose is to work on a part of a project (making changes to code, fixing bugs, etc.) without messing with the main repository. Once the adjustment or changes are made to the branch, this can be merged into the original main branch. Therefore, there is always a main branch and new branches are created from the main branch. The new branch contains all the edits which is then merged to the main branch to include all the new edits and updates.
+
+### Commits
+
+Commits is used for saving a change in the repository. For best practice, there should be a message to every commits to annotate and describe what changes were made for good tracking.
+
+### Pull Requests
+
+This is what brings all the commits (changes) together into the main branch. Once pull request is made, we can see the changes that would be made (including addition of lines of codes, deletions, etc). After making the commit (with description message!), open a pull request and merge to combine the edits to the main branch.
+
+During this step, there can be a lot of conflicts. These conflicts are generally due to changes that were made in the main branch that is no longer the same as the branch that was branched off in the beginning (ex: other collaborators made edits and merged their pull requests to the main branch, making this new main branch different from when your branch was created), and when your branch is trying to merge, Git will recognize there are edits that come in conflict with the main branch. These edits can be resolved with quick Google search.
 
 ## Tutorial for Jupyterlab/notebook
 
